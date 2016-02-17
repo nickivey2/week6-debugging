@@ -23,6 +23,6 @@ def divide( first, second):
     #       I'm sorry, I can't divide by zero
     #   3. returns the quotient of first and second
     if second == 0:
-        print("I'm sorry, I can't divide by zero")
+        raise Exception("I'm sorry, I can't divide by zero")
     else:
         return first/second
