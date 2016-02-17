@@ -1,15 +1,19 @@
+# Nicholas Ivey 2/17/16 
+
 def add( first, second):
     # TODO:
     # there's an error in this code, fix it
-    return first plus second
+    return first+second
 
 def subtract( first, second):
     # TODO:
     # fill in code here that will return the difference between first and second
+    return first-second
 
 def multiply( first, second):
     # TODO:
     # fill in code here that will return the product of first and second
+    return first*second
 
 def divide( first, second):
     # TODO:
@@ -18,3 +22,7 @@ def divide( first, second):
     #   2. if the second number is zero, an exception is raised, the exception text must say exactly the following (make sure everything including casing and spaces match)
     #       I'm sorry, I can't divide by zero
     #   3. returns the quotient of first and second
+    if second == 0:
+        print("I'm sorry, I can't divide by zero")
+    else:
+        return first/second
